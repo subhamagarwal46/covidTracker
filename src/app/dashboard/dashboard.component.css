@@ -1,0 +1,113 @@
+#home {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    color: cadetblue;
+}
+mat-card-content{
+    padding: 16px ;
+    margin-bottom: 0px;
+}
+
+mat-card-actions {
+    padding-top: 10px ;
+    padding-bottom: 2px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.confirmed-card mat-card-content{
+    background-color: #ffc0cb52;
+    color: red;
+}
+
+.confirmed-card mat-card-actions {
+    background-color: pink;
+    color: red;
+}
+
+.recovered-card mat-card-content{
+    background-color: #0080000f;
+    color: green;
+}
+
+.recovered-card mat-card-actions {
+    background-color: #00800059;
+    color: green;
+}
+
+.death-card mat-card-content{
+    background-color: #8080801f;
+    color: gray;
+}
+
+.death-card mat-card-actions {
+    background-color: #8080805e;
+    color: gray;
+}
+
+h2, h4{
+    letter-spacing: 2px ;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+  }
+  
+th.mat-sort-header-sorted {
+color: black;
+}
+
+th{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.stateSty, .districtSty{
+    background-color: #5f9ea06b;
+    
+}
+
+.stateSty:hover{
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
+
+td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type, th.mat-header-cell:first-of-type {
+    padding-left: 24px;
+    max-width:120px !important;
+    font-weight: 500;
+}
+
+.mat-column-confirmed, .mat-column-recovered, .mat-column-state, .mat-column-district {
+    border-right: 1.5px solid #5f9ea052;
+}
+
+@media only screen and (max-width: 768px){
+    .mob-mar12{
+        margin-top: 20px;
+    }
+
+    #home {
+        position: absolute;
+        top: 15px !important;
+        left: 8px !important;
+    }
+
+    .fa-4x {
+        font-size: 3em;
+    }
+
+    th, td {
+        font-weight: 500;
+        font-size: 13px !important;
+    }
+
+    
+}
+
+
